@@ -7,3 +7,6 @@ This allows you to vary an algorithm by coding the fixed parts on a base class a
 
 ### 2: The Strategy pattern
 A delegation-based approach to solving the same problem as the Template Method patter. Instead of separate classes we use a context object, and supply it with different strategy objects as required. Using Ruby code blocks to pass data makes this quick and simple.
+
+### 3: The Observer pattern
+The Observer pattern can solve the problem of tightly coupled classes. It allows one or more observer classes to stay informed of changes to a subject via a series of methods that relay those changes when they occur.
